@@ -26,6 +26,6 @@ def is_palindrome(s: str) -> bool:
 
 
 if __name__ == "__main__":
-    print(is_palindrome("A man, a plan, a canal: Panama"))  # True
-    print(is_palindrome("race a car"))                       # False
-    print(is_palindrome(" "))                                # True
+    print(is_palindrome("A man, a plan, a canal: Panama"))  
+    print(is_palindrome("race a car"))                       
+    print(is_palindrome(" "))                                
