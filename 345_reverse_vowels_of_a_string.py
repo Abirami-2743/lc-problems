@@ -1,0 +1,36 @@
+"""
+345. Reverse Vowels of a String
+
+Given a string s, reverse only all the vowels in the string and return
+it. The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in
+both lower and upper cases, more than once.
+
+Example 1:
+Input: s = "IceCreAm"
+Output: "AceCreIm"
+
+Example 2:
+Input: s = "leetcode"
+Output: "leotcede"
+"""
+
+
+def reverse_vowels(s: str) -> str:
+    vowels = set("aeiouAEIOU")
+    chars = list(s)
+    left, right = 0, len(chars) - 1
+    while left < right:
+        if chars[left] not in vowels:
+            left += 1
+        elif chars[right] not in vowels:
+            right -= 1
+        else:
+            chars[left], chars[right] = chars[right], chars[left]
+            left += 1
+            right -= 1
+    return "".join(chars)
+
+
+if __name__ == "__main__":
+    print(reverse_vowels("IceCreAm"))  # AceCreIm
+    print(reverse_vowels("leetcode"))  # leotcede
