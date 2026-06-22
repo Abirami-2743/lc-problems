@@ -26,7 +26,7 @@ def remove_element(nums, val) -> int:
 
 if __name__ == "__main__":
     nums1 = [3, 2, 2, 3]
-    print(remove_element(nums1, 3), nums1[:2])  # 2 [2, 2]
+    print(remove_element(nums1, 3), nums1[:2]) 
 
     nums2 = [0, 1, 2, 2, 3, 0, 4, 2]
-    print(remove_element(nums2, 2), nums2[:5])  # 5 [0, 1, 4, 0, 3]
+    print(remove_element(nums2, 2), nums2[:5])  
