@@ -26,6 +26,6 @@ def reverse_words(s: str) -> str:
 
 
 if __name__ == "__main__":
-    print(reverse_words("the sky is blue"))      # blue is sky the
-    print(reverse_words("  hello world  "))       # world hello
-    print(reverse_words("a good   example"))      # example good a
+    print(reverse_words("the sky is blue"))      
+    print(reverse_words("  hello world  "))      
+    print(reverse_words("a good   example"))      
