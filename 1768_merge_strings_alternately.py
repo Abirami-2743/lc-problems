@@ -34,6 +34,6 @@ def merge_alternately(word1: str, word2: str) -> str:
 
 
 if __name__ == "__main__":
-    print(merge_alternately("abc", "pqr"))   # apbqcr
-    print(merge_alternately("ab", "pqrs"))   # apbqrs
-    print(merge_alternately("abcd", "pq"))   # apbqcd
+    print(merge_alternately("abc", "pqr"))  
+    print(merge_alternately("ab", "pqrs"))   
+    print(merge_alternately("abcd", "pq"))   
