@@ -26,6 +26,6 @@ def first_palindrome(words) -> str:
 
 
 if __name__ == "__main__":
-    print(first_palindrome(["abc", "car", "ada", "racecar", "cool"]))  # ada
-    print(first_palindrome(["notapalindrome", "racecar"]))             # racecar
-    print(first_palindrome(["def", "ghi"]))                            # ""
+    print(first_palindrome(["abc", "car", "ada", "racecar", "cool"]))  
+    print(first_palindrome(["notapalindrome", "racecar"]))            
+    print(first_palindrome(["def", "ghi"]))                           
