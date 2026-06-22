@@ -26,6 +26,6 @@ def is_palindrome(x: int) -> bool:
 
 
 if __name__ == "__main__":
-    print(is_palindrome(121))   # True
-    print(is_palindrome(-121))  # False
-    print(is_palindrome(10))    # False
+    print(is_palindrome(121))   
+    print(is_palindrome(-121))  
+    print(is_palindrome(10))    
