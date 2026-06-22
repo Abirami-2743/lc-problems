@@ -25,6 +25,6 @@ def maximum_wealth(accounts) -> int:
 
 
 if __name__ == "__main__":
-    print(maximum_wealth([[1, 2, 3], [3, 2, 1]]))           # 6
-    print(maximum_wealth([[1, 5], [7, 3], [3, 5]]))         # 10
-    print(maximum_wealth([[2, 8, 7], [7, 1, 3], [1, 9, 5]]))  # 17
+    print(maximum_wealth([[1, 2, 3], [3, 2, 1]]))           
+    print(maximum_wealth([[1, 5], [7, 3], [3, 5]]))         
+    print(maximum_wealth([[2, 8, 7], [7, 1, 3], [1, 9, 5]]))  
