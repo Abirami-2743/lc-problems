@@ -19,5 +19,5 @@ def find_numbers(nums) -> int:
 
 
 if __name__ == "__main__":
-    print(find_numbers([12, 345, 2, 6, 7896]))   # 2
-    print(find_numbers([555, 901, 482, 1771]))   # 1
+    print(find_numbers([12, 345, 2, 6, 7896]))   
+    print(find_numbers([555, 901, 482, 1771]))   
