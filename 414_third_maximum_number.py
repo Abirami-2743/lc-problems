@@ -31,7 +31,3 @@ def third_max(nums) -> int:
     return top3[-1] if len(top3) == 3 else top3[0]
 
 
-if __name__ == "__main__":
-    print(third_max([3, 2, 1]))     
-    print(third_max([1, 2]))        
-    print(third_max([2, 2, 3, 1]))  

@@ -22,6 +22,3 @@ def find_the_difference(s: str, t: str) -> str:
     return next(iter(diff))
 
 
-if __name__ == "__main__":
-    print(find_the_difference("abcd", "abcde"))
-    print(find_the_difference("", "y"))

@@ -25,6 +25,4 @@ def is_subsequence(s: str, t: str) -> bool:
     return i == len(s)
 
 
-if __name__ == "__main__":
-    print(is_subsequence("abc", "ahbgdc"))
-    print(is_subsequence("axc", "ahbgdc"))
+

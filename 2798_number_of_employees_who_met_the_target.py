@@ -21,6 +21,4 @@ def number_of_employees_who_met_target(hours, target: int) -> int:
     return sum(1 for h in hours if h >= target)
 
 
-if __name__ == "__main__":
-    print(number_of_employees_who_met_target([0, 1, 2, 3, 4], 2)) 
-    print(number_of_employees_who_met_target([5, 1, 4, 2, 2], 6))  
+

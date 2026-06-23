@@ -33,7 +33,3 @@ def two_sum(numbers, target: int):
     return []
 
 
-if __name__ == "__main__":
-    print(two_sum([2, 7, 11, 15], 9))
-    print(two_sum([2, 3, 4], 6))
-    print(two_sum([-1, 0], -1))

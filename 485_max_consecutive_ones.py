@@ -25,6 +25,3 @@ def find_max_consecutive_ones(nums) -> int:
     return best
 
 
-if __name__ == "__main__":
-    print(find_max_consecutive_ones([1, 1, 0, 1, 1, 1]))  
-    print(find_max_consecutive_ones([1, 0, 1, 1, 0, 1])) 

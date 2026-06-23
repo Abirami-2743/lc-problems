@@ -33,7 +33,3 @@ def merge_alternately(word1: str, word2: str) -> str:
     return "".join(result)
 
 
-if __name__ == "__main__":
-    print(merge_alternately("abc", "pqr"))  
-    print(merge_alternately("ab", "pqrs"))   
-    print(merge_alternately("abcd", "pq"))   

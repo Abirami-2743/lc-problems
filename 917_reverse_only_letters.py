@@ -35,7 +35,3 @@ def reverse_only_letters(s: str) -> str:
     return "".join(chars)
 
 
-if __name__ == "__main__":
-    print(reverse_only_letters("ab-cd"))                  
-    print(reverse_only_letters("a-bC-dEf-ghIj"))          
-    print(reverse_only_letters("Test1ng-Leet=code-Q!"))    

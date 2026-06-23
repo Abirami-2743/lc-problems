@@ -25,6 +25,4 @@ def majority_element(nums) -> int:
     return candidate
 
 
-if __name__ == "__main__":
-    print(majority_element([3, 2, 3]))
-    print(majority_element([2, 2, 1, 1, 1, 2, 2]))
+

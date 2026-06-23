@@ -23,11 +23,3 @@ def reverse_string(s) -> None:
         right -= 1
 
 
-if __name__ == "__main__":
-    a = ["h", "e", "l", "l", "o"]
-    reverse_string(a)
-    print(a)
-
-    b = ["H", "a", "n", "n", "a", "h"]
-    reverse_string(b)
-    print(b)  

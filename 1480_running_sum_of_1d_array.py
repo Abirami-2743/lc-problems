@@ -27,7 +27,3 @@ def running_sum(nums):
     return result
 
 
-if __name__ == "__main__":
-    print(running_sum([1, 2, 3, 4]))        
-    print(running_sum([1, 1, 1, 1, 1]))     
-    print(running_sum([3, 1, 2, 10, 1]))    

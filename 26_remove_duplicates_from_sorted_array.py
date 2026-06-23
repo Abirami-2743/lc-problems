@@ -26,8 +26,3 @@ def remove_duplicates(nums) -> int:
     return k
 
 
-if __name__ == "__main__":
-    a = [1, 1, 2]
-    print(remove_duplicates(a), a[:2])  
-    b = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-    print(remove_duplicates(b), b[:5])  

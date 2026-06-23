@@ -30,6 +30,3 @@ def sorted_squares(nums):
     return result
 
 
-if __name__ == "__main__":
-    print(sorted_squares([-4, -1, 0, 3, 10]))  
-    print(sorted_squares([-7, -3, 2, 3, 11]))  

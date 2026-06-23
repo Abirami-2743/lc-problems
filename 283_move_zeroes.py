@@ -25,11 +25,3 @@ def move_zeroes(nums) -> None:
         nums[i] = 0
 
 
-if __name__ == "__main__":
-    a = [0, 1, 0, 3, 12]
-    move_zeroes(a)
-    print(a)  
-
-    b = [0]
-    move_zeroes(b)
-    print(b)  

@@ -32,6 +32,3 @@ def shortest_to_char(s: str, c: str):
     return answer
 
 
-if __name__ == "__main__":
-    print(shortest_to_char("loveleetcode", "e"))
-    print(shortest_to_char("aaab", "b"))

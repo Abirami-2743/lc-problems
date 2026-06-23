@@ -27,7 +27,3 @@ def maximum_count(nums) -> int:
     return max(pos, neg)
 
 
-if __name__ == "__main__":
-    print(maximum_count([-2, -1, -1, 1, 2, 3]))    
-    print(maximum_count([-3, -2, -1, 0, 0, 1, 2])) 
-    print(maximum_count([5, 20, 66, 1314]))         

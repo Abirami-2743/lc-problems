@@ -31,6 +31,3 @@ def reverse_vowels(s: str) -> str:
     return "".join(chars)
 
 
-if __name__ == "__main__":
-    print(reverse_vowels("IceCreAm"))  
-    print(reverse_vowels("leetcode")) 

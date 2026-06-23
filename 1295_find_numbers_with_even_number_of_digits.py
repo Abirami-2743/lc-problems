@@ -18,6 +18,3 @@ def find_numbers(nums) -> int:
     return sum(1 for n in nums if len(str(n)) % 2 == 0)
 
 
-if __name__ == "__main__":
-    print(find_numbers([12, 345, 2, 6, 7896]))   
-    print(find_numbers([555, 901, 482, 1771]))   
