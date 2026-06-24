@@ -29,19 +29,3 @@ class Solution:
             else:
                 right -= 1
         return best
-=======
-
-def max_area(height) -> int:
-    left, right = 0, len(height) - 1
-    best = 0
-    while left < right:
-        area = (right - left) * min(height[left], height[right])
-        best = max(best, area)
-        if height[left] < height[right]:
-            left += 1
-        else:
-            right -= 1
-    return best
-
-
->>>>>>> 1baccb1 (add lc problems)
